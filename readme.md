@@ -8,7 +8,7 @@ This is an nginx config for allowing computers with limited/old/no https support
     - a newer computer
 - `nginx -c ./http-proxy.conf`
 - add a HTTP Web Proxy system wide or in your browser's settings to point to the host and port running the proxy
-
+<img width="500rem" src="https://github.com/nburns/retrocomputing-proxy/blob/main/docs/proxy-setup.png?raw=true" alt="Setup Example on macOS">
 
 # Bugs
 - Currently this will naively replace all instances of `https` with `http` in the body which could break things
