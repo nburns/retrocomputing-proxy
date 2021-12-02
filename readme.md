@@ -12,7 +12,7 @@ nginx -c debug.conf -p (pwd)
 ```
 
 - add a HTTP Web Proxy system wide or in your browser's settings to point to the host and port running the proxy
-<img width="500rem" src="https://github.com/nburns/retrocomputing-proxy/blob/main/docs/proxy-setup.png?raw=true" alt="Setup Example on macOS">
+<img width="500rem" src="https://raw.githubusercontent.com/wiki/nburns/retrocomputing-proxy/images/proxy-setup.png" alt="Setup Example on macOS">
 
 - `http-proxy.conf` can be symlinked to `/etc/nginx/sites-enabled/http-proxy.conf` on ubuntu/debian
 
