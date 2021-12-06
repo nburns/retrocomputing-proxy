@@ -23,7 +23,7 @@ nginx -c debug.conf -p (pwd)
 # Contributing
 - PR's are welcome
 
-## Features
+## Desired Features
 - a more correct https proxy for clients that support https but may not have
 support for current cipher suites
 
